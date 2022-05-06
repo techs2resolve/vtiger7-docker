@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:18.04
 RUN apt-get update -y
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get upgrade -y
